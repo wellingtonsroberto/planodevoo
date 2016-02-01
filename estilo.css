@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+#teste{
+    width: 1366px;
+    height: 768px;
+    border: 1px solid;
+    background-image: url(imgfundo.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
