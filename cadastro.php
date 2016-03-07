@@ -43,6 +43,18 @@ if(!function_exists("Abre_Conexao")) {
 		<div class="main-login col-sm-4 col-sm-offset-4">
 			<div class="logo"><img src="http://vasp.zz.vc/501px-VASP_logo.svg.png" width="200" height="60
                         ">
+<style type="text/css">
+       body {font-family: 'Khand', sans-serif;}
+table {
+	width: 1200px;
+	border-collapse:collapse;
+	border:2px solid #40788E;
+</style>
+<style>
+<!--
+.textBox { border:1px solid gray;}
+-->
+</style>
 </head>
 <body>
 <h1>Plano de Voo</h1>
@@ -101,56 +113,50 @@ ________________________________________________________________________________
      </td>
      </table>
     <br>
-              <table width="400" border="0" align="center">
-     <tr>
+              
+     <table width="400" border="0" align="center">        
+     
       <td>Saida</td>
       <td><input name="saida" type="text" class="textBox" id="saida" size="6" maxlength="40" /></td>
-    </tr>
-      <tr>
+
       <td>Destino</td>
       <td><input name="destino" type="text" class="textBox" id="destino" size="6" maxlength="40" /></td>
     </tr>
-      <td align="center">Tempo em Voo</td>
-      <td><input name="tempovo" type="text" class="textBox" id="tempovo" size="6" maxlength="40" /></td>
-    </tr>
-      <td align="center">FL</td>
+      <td>FL</td>
       <td><input name="altitude" type="text" class="textBox" id="altitude" size="6" maxlength="40" /></td>
-    </tr>
-    <tr>
       <td>KTS</td>
       <td><input name="kts" type="text" class="textBox" id="kts" size="6" maxlength="40" /></td>
-    </tr>
-   <tr>
+   </tr>
+
       <td>Alternativo</td>
       <td><input name="altn" type="text" class="textBox" id="altn" size="6" maxlength="40" /></td>
-    </tr>
-    <tr>
+      
       <td>Rota</td>
       <td><textarea name="rota" class="textBox" id="rota"></textarea></td>
-    </tr>
-   <tr>
+       </tr>
+
       <td>Combustivel</td>
       <td><input name="combust" type="text" class="textBox" id="combust" size="6" maxlength="40" /></td>
-    </tr>
-    <tr>
+   <tr>
+
+   <td>Tempo em Voo</td>
+      <td><input name="tempovo" type="text" class="textBox" id="tempovo" size="6" maxlength="40" /></td>
+
       <td>OBS</td>
       <td><textarea name="obs" class="textBox" id="obs"></textarea></td>
-    </tr>
-   
-    <tr>
+</table>
+ <br>
+ <table width="600" border="0" align="center">
+
       <td>Login</td>
       <td><input name="login" type="text" id="login" maxlength="40" class="textBox" /></td>
-    </tr>
-    <tr>
+
       <td>Senha</td>
       <td><input name="senha" type="password" id="senha" maxlength="10" class="textBox" /></td>
-    </tr>
-
-    <tr>
-      <td>&nbsp;</td>
+            <td>&nbsp;</td>
       <td> <br><input type="submit" name="Submit" value="Salvar" style="cursor:pointer;" /></br></td>
-      
-    </tr>
+      </table>
+   
 </form>
 </br>
 </br>
